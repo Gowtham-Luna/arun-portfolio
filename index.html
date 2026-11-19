@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Arun Pandi · XR Developer</title>
+<meta name="description" content="Arun Pandi is an XR developer building AR, VR and mixed reality apps in Unity and C#: marker-based AR for marketing, VR training modules and hardware-linked simulators used in real training centres.">
+<meta name="theme-color" content="#050608">
+<meta name="color-scheme" content="dark">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Arun Pandi · XR Developer (Unity 3D)">
+<meta property="og:description" content="AR, VR and mixed reality apps in Unity and C#. Open to on-site XR developer roles.">
+<meta property="og:image" content="https://images.unsplash.com/photo-1593508512255-86ab42a8e620?auto=format&fit=crop&q=80&w=1200&h=630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23050608'/%3E%3Cpath d='M6 12V6h6M20 6h6v6M6 20v6h6M26 20v6h-6' fill='none' stroke='%235ce1e6' stroke-width='2.5'/%3E%3Ccircle cx='16' cy='16' r='3' fill='%23ffb547'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://images.unsplash.com" crossorigin>
+<link rel="preload" href="assets/models/quest.pts" as="fetch" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,500..800&family=Geist:wght@400;500;600&family=Geist+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<script>document.documentElement.classList.add("js");</script>
+<script defer src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+<script defer src="assets/js/cloud.js"></script>
+<script defer src="assets/js/main.js"></script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","name":"Arun Pandi","jobTitle":"XR Developer","email":"mailto:itzarun9361@gmail.com","telephone":"+919361109446","knowsAbout":["Unity 3D","C#","Augmented Reality","Virtual Reality","Mixed Reality","Vuforia","AR Foundation","XR Interaction Toolkit","Meta XR SDK","OpenXR"]}
+</script>
+</head>
+<body>
+<a class="skip" href="#work">Skip to projects</a>
+
+<!-- boot: black visor, name + counter, the 3D headset assembles, then the visor splits open -->
+<div class="boot" aria-hidden="true">
+  <div class="boot__shutter boot__shutter--top"></div>
+  <div class="boot__shutter boot__shutter--bot"></div>
+  <div class="boot__seam"></div>
+</div>
+<div class="boot-ui" aria-hidden="true">
+  <i class="boot-ui__c"></i><i class="boot-ui__c"></i><i class="boot-ui__c"></i><i class="boot-ui__c"></i>
+  <div class="boot-ui__top"><span>Portfolio <b>/</b> 2026</span><span data-boot-status>Initialising XR runtime</span><span class="boot-ui__skip">Click to skip</span></div>
+  <div class="boot-ui__bottom">
+    <div class="boot-ui__name">
+      <span class="m"><span>Arun</span></span>
+      <span class="m"><span>Pandi</span></span>
+      <span class="m boot-ui__role"><span>XR Developer &nbsp;·&nbsp; Unity 3D &nbsp;·&nbsp; C#</span></span>
+    </div>
+    <div class="boot-ui__count"><span class="m"><span data-boot-n>000</span></span></div>
+  </div>
+  <div class="boot-ui__bar"><span data-boot-bar></span></div>
+</div>
+
+<canvas class="stage" aria-hidden="true"></canvas>
+<div class="grain" aria-hidden="true"></div>
+<div class="cursor" aria-hidden="true"><span class="cursor__ring"></span><span class="cursor__dot"></span><span class="cursor__label" data-cursor-label></span></div>
+
+<header class="nav">
+  <a class="nav__brand" href="#top" aria-label="Arun Pandi, back to top"><span class="nav__mark" aria-hidden="true"></span>Arun Pandi</a>
+  <nav class="nav__links" aria-label="Sections">
+    <a href="#work" data-scramble>Work</a>
+    <a href="#value" data-scramble>Why hire</a>
+    <a href="#journey" data-scramble>Journey</a>
+    <a href="#skills" data-scramble>Skills</a>
+  </nav>
+  <a class="nav__cta magnet" href="#contact"><span class="pulse" aria-hidden="true"></span>Hire Arun</a>
+  <button class="nav__menu" type="button" aria-expanded="false" aria-controls="menu"><span class="sr-only">Open menu</span><i></i><i></i></button>
+</header>
+
+<div class="menu" id="menu" hidden>
+  <nav aria-label="Menu">
+    <a href="#work"><small>01</small>Work</a>
+    <a href="#value"><small>02</small>Why hire</a>
+    <a href="#journey"><small>03</small>Journey</a>
+    <a href="#skills"><small>04</small>Skills</a>
+    <a href="#contact"><small>05</small>Contact</a>
+  </nav>
+  <p class="menu__foot"><span class="pulse" aria-hidden="true"></span>Open to on-site XR developer roles</p>
+</div>
+
+<main>
+<!-- HERO -->
+<section class="hero" id="top" data-shape="headset" data-rx="0.04" data-ry="0" data-sw="0.22" data-x="0" data-y="0.02" data-s="0.74" data-mx="0" data-my="0.2" data-ms="0.48" aria-labelledby="hero-title">
+  <div class="hud hud--a"><span class="pulse" aria-hidden="true"></span>XR Developer · Unity 3D · C#</div>
+  <div class="hud hud--b" aria-hidden="true"><span data-coords>X 0.00 &nbsp;Y 0.00 &nbsp;Z 4.20</span></div>
+  <h1 class="hero__title" id="hero-title">
+    <span class="hero__w hero__w--l" data-split>Arun</span>
+    <span class="hero__w hero__w--r" data-split>Pandi</span>
+  </h1>
+  <div class="hero__foot">
+    <p class="hero__lede" data-fade>I build AR, VR and mixed reality apps in Unity and C#: marker-based AR for marketing, VR training modules, and hardware-linked simulators used in real training centres.</p>
+    <div class="hero__ctas" data-fade>
+      <a class="btn btn--solid magnet" href="#work">See my XR work</a>
+      <a class="btn btn--line magnet" href="#contact">Get in touch</a>
+      <a class="btn btn--line magnet" id="resume" href="#" hidden>Download CV</a>
+    </div>
+    <p class="hero__scroll" aria-hidden="true"><span>Scroll to scan</span><i></i></p>
+  </div>
+</section>
+
+<!-- MANIFESTO: words light up as you scroll -->
+<section class="manifesto" data-shape="guardian" data-rx="0.32" data-ry="0" data-sw="0.3" data-x="0.2" data-y="-0.05" data-s="0.82" data-ms="0.5" data-my="0.4" data-a="0.75" aria-label="Summary">
+  <div class="manifesto__pin">
+    <p class="eyebrow">( Recruiter brief )</p>
+    <p class="manifesto__text" data-words>I turn Unity and C# into immersive products that teams actually use. Phones that bring printed cards to life. Headsets that train warehouse crews. Simulators driven by real steering and throttle. And mixed reality that places virtual objects in the real room.</p>
+    <dl class="brief">
+      <div><dt>Role</dt><dd>XR Developer, Unity 3D</dd></div>
+      <div><dt>Hardware</dt><dd>Meta Quest 3, Android, simulator controls</dd></div>
+      <div><dt>Ships</dt><dd>Windows EXE and Android / VR APK</dd></div>
+      <div><dt>Availability</dt><dd><span class="pulse" aria-hidden="true"></span>Open to on-site XR roles</dd></div>
+    </dl>
+  </div>
+</section>
+
+<!-- NUMBERS -->
+<section class="numbers" aria-label="At a glance">
+  <div class="numbers__grid">
+    <div class="num"><span class="num__v" data-count="5">5</span><span class="num__l">XR projects built, from marketing AR to training simulators</span></div>
+    <div class="num"><span class="num__v" data-count="3">3</span><span class="num__l">Realities shipped: augmented, virtual and mixed</span></div>
+    <div class="num"><span class="num__v" data-count="2">2</span><span class="num__l">Build targets delivered: Windows EXE and Android VR APK</span></div>
+    <div class="num"><span class="num__v"><span data-count="22">22</span><sup>mo</sup></span><span class="num__l">Building XR in Unity, January 2025 to October 2026</span></div>
+  </div>
+  <div class="ticker" aria-label="Tools I use">
+    <div class="ticker__track" data-ticker>
+      <span>Unity 3D</span><span>C#</span><span>Vuforia</span><span>AR Foundation</span><span>XR Interaction Toolkit</span><span>Meta XR SDK</span><span>Meta Quest 3</span><span>OpenXR</span><span>ARCore</span><span>ARKit</span><span>Input System</span><span>Wheel Colliders</span>
+    </div>
+  </div>
+</section>
+
+<!-- WORK -->
+<section class="work" id="work" aria-labelledby="work-title">
+  <header class="work__head">
+    <p class="eyebrow">( Selected work · 2025–2026 )</p>
+    <h2 id="work-title" data-split-lines>XR projects</h2>
+    <p class="work__lede">Five builds across phones, headsets and real hardware. Scroll and the scan rebuilds itself into each one.</p>
+  </header>
+
+  <div class="work__index" aria-hidden="true"><span data-proj-n>01</span><span>/05</span></div>
+
+  <article class="proj" id="ar-business-card" data-shape="card" data-x="1.05" data-y="0.05" data-s="0.9" data-mx="0" data-my="0.55" data-ms="0.55" data-n="01" data-demo="">
+    <div class="proj__text">
+      <p class="proj__meta"><span>AR · Mobile · Marker-based</span><time>Jan–Feb 2025</time></p>
+      <h3 data-split-lines>AR interactive business card</h3>
+      <p class="proj__sum">A printed business card becomes a live AR experience. Point the phone at the card and 3D elements and contact links appear on top of it.</p>
+      <ul class="proj__pts">
+        <li>Set up Vuforia Image Targets for fast, stable marker recognition</li>
+        <li>Built 3D elements that show personal and professional details</li>
+        <li>Designed UI for contact details, profiles and social links</li>
+      </ul>
+      <p class="proj__stack">Unity 3D <i></i> C# <i></i> Vuforia Engine</p>
+      <div class="proj__shots" data-gallery="AR interactive business card">
+        <button type="button" data-full="assets/img/card-hero.svg" data-caption="Card with AR content on top"><img src="assets/img/card-hero.svg" width="1600" height="900" loading="lazy" decoding="async" alt="Concept illustration: AR contact panel floating above a business card"></button>
+        <button type="button" data-full="assets/img/card-marker.svg" data-caption="Plain card (marker)"><img src="assets/img/card-marker.svg" width="1200" height="900" loading="lazy" decoding="async" alt="Plain printed card used as the marker"></button>
+        <button type="button" data-full="assets/img/card-tap.svg" data-caption="Tapping a link"><img src="assets/img/card-tap.svg" width="1200" height="900" loading="lazy" decoding="async" alt="Tapping a contact link in the AR panel"></button>
+        <button type="button" data-full="assets/img/card-unity.svg" data-caption="Unity scene setup"><img src="assets/img/card-unity.svg" width="1200" height="900" loading="lazy" decoding="async" alt="Unity scene with ARCamera and ImageTarget_Card"></button>
+      </div>
+    </div>
+    <span class="proj__ghost" aria-hidden="true">01</span>
+  </article>
+
+  <article class="proj proj--r" id="ar-smartwatch" data-shape="watch" data-x="-1.05" data-y="0" data-s="0.72" data-mx="0" data-my="0.55" data-ms="0.5" data-n="02" data-demo="">
+    <div class="proj__text">
+      <p class="proj__meta"><span>AR · Mobile · Marker-based</span><time>Mar–Apr 2025</time></p>
+      <h3 data-split-lines>AR product showcase: smartwatch</h3>
+      <p class="proj__sum">Customers view a 3D smartwatch in AR and switch between colour options, to explore a product before buying.</p>
+      <ul class="proj__pts">
+        <li>Built a mobile AR product viewer with Vuforia</li>
+        <li>Added colour selection UI to swap product appearances</li>
+        <li>Shows how AR can support product marketing and ads</li>
+      </ul>
+      <p class="proj__stack">Unity 3D <i></i> C# <i></i> Vuforia Engine</p>
+      <div class="proj__shots" data-gallery="AR product showcase: smartwatch">
+        <button type="button" data-full="assets/img/watch-hero.svg" data-caption="Smartwatch on the marker"><img src="assets/img/watch-hero.svg" width="1600" height="900" loading="lazy" decoding="async" alt="Concept illustration: 3D smartwatch on a printed marker"></button>
+        <button type="button" data-full="assets/img/watch-blue.svg" data-caption="Colour option 1"><img src="assets/img/watch-blue.svg" width="1200" height="900" loading="lazy" decoding="async" alt="Smartwatch in blue"></button>
+        <button type="button" data-full="assets/img/watch-red.svg" data-caption="Colour option 2"><img src="assets/img/watch-red.svg" width="1200" height="900" loading="lazy" decoding="async" alt="Smartwatch in red"></button>
+        <button type="button" data-full="assets/img/watch-unity.svg" data-caption="Unity hierarchy"><img src="assets/img/watch-unity.svg" width="1200" height="900" loading="lazy" decoding="async" alt="Unity hierarchy with Smartwatch_Model"></button>
+      </div>
+    </div>
+    <span class="proj__ghost" aria-hidden="true">02</span>
+  </article>
+
+  <article class="proj" id="vr-warehouse-binning" data-shape="racks" data-x="1.05" data-y="0" data-s="0.66" data-mx="0" data-my="0.5" data-ms="0.45" data-n="03" data-demo="">
+    <div class="proj__text">
+      <p class="proj__meta"><span>VR · Training · Logistics Sector Skill Council</span><time>Apr–May 2025</time></p>
+      <h3 data-split-lines>VR warehouse binning training</h3>
+      <p class="proj__sum">A step-by-step VR module that teaches warehouse associates to identify goods, find the right rack and place items in the correct bin.</p>
+      <ul class="proj__pts">
+        <li>Built warehouse environments with racks, bays and storage bins</li>
+        <li>Implemented VR selection, grabbing and placement interactions</li>
+        <li>Added placement verification and scenario-based exercises</li>
+      </ul>
+      <p class="proj__stack">Unity 3D <i></i> C# <i></i> XR Interaction Toolkit</p>
+      <div class="proj__shots" data-gallery="VR warehouse binning training">
+        <button type="button" data-full="assets/img/bin-hero.svg" data-caption="Grabbing goods in the warehouse"><img src="assets/img/bin-hero.svg" width="1600" height="900" loading="lazy" decoding="async" alt="Concept illustration: VR controller ray pointing at a bin"></button>
+        <button type="button" data-full="assets/img/bin-bay.svg" data-caption="Bay area"><img src="assets/img/bin-bay.svg" width="1200" height="900" loading="lazy" decoding="async" alt="Top view of a warehouse bay"></button>
+        <button type="button" data-full="assets/img/bin-rack.svg" data-caption="Rack identification"><img src="assets/img/bin-rack.svg" width="1200" height="900" loading="lazy" decoding="async" alt="Rack A with bin A3 highlighted"></button>
+        <button type="button" data-full="assets/img/bin-check.svg" data-caption="Placement check"><img src="assets/img/bin-check.svg" width="1200" height="900" loading="lazy" decoding="async" alt="Placement check confirming the correct bin"></button>
+      </div>
+    </div>
+    <span class="proj__ghost" aria-hidden="true">03</span>
+  </article>
+
+  <article class="proj proj--r" id="bopt-simulator" data-shape="truck" data-ry="0.75" data-sw="0.35" data-x="-1.05" data-y="0.05" data-s="0.64" data-mx="0" data-my="0.55" data-ms="0.5" data-n="04" data-demo="">
+    <div class="proj__text">
+      <p class="proj__meta"><span>Simulator · VR · Hardware integration</span><time>May–Aug 2026</time></p>
+      <h3 data-split-lines>BOPT pallet truck simulator</h3>
+      <p class="proj__sum">A Unity driving simulator for battery-operated pallet trucks, controlled by real hardware, so trainees can practise without a physical machine.</p>
+      <ul class="proj__pts">
+        <li>Built steering, throttle and physics-based movement with Wheel Colliders</li>
+        <li>Connected physical controls to Unity through input scripts and API integration</li>
+        <li>Shipped Windows EXE and Android VR APK builds</li>
+        <li>Demonstrated the simulator at training centres and industry events</li>
+      </ul>
+      <p class="proj__stack">Unity 3D <i></i> C# <i></i> Input System <i></i> API integration</p>
+      <div class="proj__shots" data-gallery="BOPT pallet truck simulator">
+        <button type="button" data-full="assets/img/bopt-hero.svg" data-caption="Driving view in the warehouse"><img src="assets/img/bopt-hero.svg" width="1600" height="900" loading="lazy" decoding="async" alt="Concept illustration: driver's view from a pallet truck"></button>
+        <button type="button" data-full="assets/img/bopt-hw.svg" data-caption="Hardware controls"><img src="assets/img/bopt-hw.svg" width="1200" height="900" loading="lazy" decoding="async" alt="Physical tiller and throttle wired to a Unity build"></button>
+        <button type="button" data-full="assets/img/bopt-scene.svg" data-caption="Warehouse scene"><img src="assets/img/bopt-scene.svg" width="1200" height="900" loading="lazy" decoding="async" alt="Top view of a training route"></button>
+        <button type="button" data-full="assets/img/bopt-train.svg" data-caption="Training session"><img src="assets/img/bopt-train.svg" width="1200" height="900" loading="lazy" decoding="async" alt="Trainee using the simulator controls"></button>
+      </div>
+    </div>
+    <span class="proj__ghost" aria-hidden="true">04</span>
+  </article>
+
+  <article class="proj" id="mixed-reality" data-shape="room" data-x="1.1" data-y="0" data-s="0.68" data-mx="0" data-my="0.5" data-ms="0.48" data-n="05" data-demo="">
+    <div class="proj__text">
+      <p class="proj__meta"><span>MR · Meta Quest</span><time>Sep–Oct 2026</time></p>
+      <h3 data-split-lines>Mixed reality foundations</h3>
+      <p class="proj__sum">Mixed reality interactions built on the Meta XR SDK, with passthrough and room scanning blending virtual objects into the real room.</p>
+      <ul class="proj__pts">
+        <li>Set up the MR environment with Unity and Meta XR SDK</li>
+        <li>Explored passthrough, room scanning and spatial understanding</li>
+        <li>Used one shared project for Desktop (EXE), VR and MR with a common XR camera setup</li>
+      </ul>
+      <p class="proj__stack">Unity 3D <i></i> Meta XR SDK <i></i> OpenXR <i></i> Meta Quest 3</p>
+      <div class="proj__shots" data-gallery="Mixed reality foundations">
+        <button type="button" data-full="assets/img/mr-hero.svg" data-caption="Passthrough view"><img src="assets/img/mr-hero.svg" width="1600" height="900" loading="lazy" decoding="async" alt="Concept illustration: virtual panel in a real room"></button>
+        <button type="button" data-full="assets/img/mr-scan.svg" data-caption="Room scan"><img src="assets/img/mr-scan.svg" width="1200" height="900" loading="lazy" decoding="async" alt="Scene mesh covering the room"></button>
+        <button type="button" data-full="assets/img/mr-pass.svg" data-caption="Passthrough"><img src="assets/img/mr-pass.svg" width="1200" height="900" loading="lazy" decoding="async" alt="Virtual object anchored on a table"></button>
+        <button type="button" data-full="assets/img/mr-setup.svg" data-caption="Project setup"><img src="assets/img/mr-setup.svg" width="1200" height="900" loading="lazy" decoding="async" alt="One XR camera feeding Desktop, VR and MR builds"></button>
+      </div>
+    </div>
+    <span class="proj__ghost" aria-hidden="true">05</span>
+  </article>
+  <p class="work__note">Project images are concept illustrations of each build. Click any thumbnail to open the viewer.</p>
+</section>
+
+<!-- VALUE -->
+<section class="value" id="value" data-shape="guardian" data-rx="0.3" data-ry="0" data-sw="0.3" data-x="0" data-y="0" data-s="0.85" data-ms="0.5" data-a="0.4" aria-labelledby="value-title">
+  <div class="value__media" data-clip>
+    <img src="https://images.unsplash.com/photo-1758526213714-a0743a6c101f?auto=format&fit=crop&q=80&w=1400"
+      srcset="https://images.unsplash.com/photo-1758526213714-a0743a6c101f?auto=format&fit=crop&q=80&w=700 700w, https://images.unsplash.com/photo-1758526213714-a0743a6c101f?auto=format&fit=crop&q=80&w=1400 1400w, https://images.unsplash.com/photo-1758526213714-a0743a6c101f?auto=format&fit=crop&q=82&w=2200 2200w"
+      sizes="(max-width: 900px) 100vw, 45vw" width="1400" height="1750" loading="lazy" decoding="async" data-parallax
+      alt="A person wearing a VR headset reaching out to interact with a virtual object">
+  </div>
+  <div class="value__body">
+    <p class="eyebrow">( For hiring managers )</p>
+    <h2 id="value-title" data-split-lines>What I bring to your XR team</h2>
+    <ol class="pillars">
+      <li><span class="pillars__k">AR / VR / MR</span><h3>I ship across all three</h3><p>Phone-based marker AR, Quest VR training and passthrough MR, all in Unity and C#. One developer who can move between your product lines.</p><a href="#ar-business-card">See the AR builds</a></li>
+      <li><span class="pillars__k">Hardware</span><h3>I connect real hardware to Unity</h3><p>Physical steering and throttle wired into a driving simulator through input scripts and API integration, with physics from Wheel Colliders.</p><a href="#bopt-simulator">See the simulator</a></li>
+      <li><span class="pillars__k">Training</span><h3>I build training that checks itself</h3><p>Scenario-based VR exercises with placement verification, so trainees learn the right rack and bin before they touch a real warehouse.</p><a href="#vr-warehouse-binning">See the VR module</a></li>
+      <li><span class="pillars__k">Delivery</span><h3>I deliver builds people use</h3><p>Windows EXE and Android VR APK builds, demonstrated at training centres and industry events, from one shared project setup.</p><a href="#mixed-reality">See the shared setup</a></li>
+    </ol>
+  </div>
+</section>
+
+<!-- SECTORS: pinned horizontal gallery -->
+<section class="sectors" data-shape="guardian" data-rx="0.3" data-ry="0" data-sw="0.3" data-x="0" data-y="0" data-s="0.85" data-ms="0.5" data-a="0.3" aria-labelledby="sectors-title">
+  <div class="sectors__pin">
+    <div class="sectors__head">
+      <p class="eyebrow">( Where the work fits )</p>
+      <h2 id="sectors-title">Industries my<br>XR work serves</h2>
+      <p class="sectors__hint" aria-hidden="true">Keep scrolling →</p>
+    </div>
+    <div class="sectors__track" data-htrack>
+      <a class="sector" href="#ar-smartwatch">
+        <span class="sector__img"><img src="https://images.unsplash.com/photo-1665594915243-970a1e128ba7?auto=format&fit=crop&q=80&w=1400" srcset="https://images.unsplash.com/photo-1665594915243-970a1e128ba7?auto=format&fit=crop&q=80&w=700 700w, https://images.unsplash.com/photo-1665594915243-970a1e128ba7?auto=format&fit=crop&q=80&w=1400 1400w, https://images.unsplash.com/photo-1665594915243-970a1e128ba7?auto=format&fit=crop&q=82&w=2000 2000w" sizes="(max-width: 700px) 85vw, 34vw" width="1400" height="1750" loading="lazy" decoding="async" alt="A person pointing a phone camera at the world around them"></span>
+        <span class="sector__n">01</span><span class="sector__k">Mobile AR</span><span class="sector__t">Marketing and retail</span><span class="sector__d">Business cards and products that come alive on a customer's phone.</span>
+      </a>
+      <a class="sector" href="#vr-warehouse-binning">
+        <span class="sector__img"><img src="https://images.unsplash.com/photo-1714650601435-67a4d51a0798?auto=format&fit=crop&q=80&w=1400" srcset="https://images.unsplash.com/photo-1714650601435-67a4d51a0798?auto=format&fit=crop&q=80&w=700 700w, https://images.unsplash.com/photo-1714650601435-67a4d51a0798?auto=format&fit=crop&q=80&w=1400 1400w, https://images.unsplash.com/photo-1714650601435-67a4d51a0798?auto=format&fit=crop&q=82&w=2000 2000w" sizes="(max-width: 700px) 85vw, 34vw" width="1400" height="1750" loading="lazy" decoding="async" alt="Tall warehouse racks stacked with goods"></span>
+        <span class="sector__n">02</span><span class="sector__k">VR training</span><span class="sector__t">Logistics and warehousing</span><span class="sector__d">Binning and rack identification practised safely in a headset.</span>
+      </a>
+      <a class="sector" href="#bopt-simulator">
+        <span class="sector__img"><img src="https://images.unsplash.com/photo-1714627798569-b3e36d409c4b?auto=format&fit=crop&q=80&w=1400" srcset="https://images.unsplash.com/photo-1714627798569-b3e36d409c4b?auto=format&fit=crop&q=80&w=700 700w, https://images.unsplash.com/photo-1714627798569-b3e36d409c4b?auto=format&fit=crop&q=80&w=1400 1400w, https://images.unsplash.com/photo-1714627798569-b3e36d409c4b?auto=format&fit=crop&q=82&w=2000 2000w" sizes="(max-width: 700px) 85vw, 34vw" width="1400" height="1750" loading="lazy" decoding="async" alt="A forklift parked inside a warehouse"></span>
+        <span class="sector__n">03</span><span class="sector__k">Simulators</span><span class="sector__t">Equipment operator training</span><span class="sector__d">Drive the machine with real controls, without the real machine.</span>
+      </a>
+      <a class="sector" href="#mixed-reality">
+        <span class="sector__img"><img src="https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?auto=format&fit=crop&q=80&w=1400" srcset="https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?auto=format&fit=crop&q=80&w=700 700w, https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?auto=format&fit=crop&q=80&w=1400 1400w, https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?auto=format&fit=crop&q=82&w=2000 2000w" sizes="(max-width: 700px) 85vw, 34vw" width="1400" height="1750" loading="lazy" decoding="async" alt="A white standalone VR headset"></span>
+        <span class="sector__n">04</span><span class="sector__k">Mixed reality</span><span class="sector__t">Spatial apps on Meta Quest</span><span class="sector__d">Virtual objects placed in the real room through passthrough.</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- JOURNEY -->
+<section class="journey" id="journey" data-shape="guardian" data-rx="0.32" data-ry="0" data-sw="0.3" data-x="0" data-y="-0.1" data-s="0.82" data-ms="0.5" data-a="0.6" aria-labelledby="journey-title">
+  <p class="eyebrow">( Journey · 2025–2026 )</p>
+  <h2 id="journey-title" data-split-lines>From marker AR to mixed reality</h2>
+  <ol class="tl" data-tl>
+    <li><time>Jan–Feb 2025</time><h3>Marker tracking</h3><p>AR interactive business card with Vuforia Image Targets.</p></li>
+    <li><time>Mar–Apr 2025</time><h3>Product AR</h3><p>Smartwatch showcase with live colour switching.</p></li>
+    <li><time>Apr–May 2025</time><h3>VR interaction</h3><p>Warehouse binning training with grab, place and verify.</p></li>
+    <li><time>May–Aug 2026</time><h3>Hardware simulator</h3><p>BOPT pallet truck driven by real controls, shipped as EXE and APK.</p></li>
+    <li><time>Sep–Oct 2026</time><h3>Mixed reality</h3><p>Passthrough and room scanning on Meta Quest 3.</p></li>
+  </ol>
+</section>
+
+<!-- SKILLS -->
+<section class="skills" id="skills" aria-labelledby="skills-title">
+  <p class="eyebrow">( Toolkit )</p>
+  <h2 id="skills-title" data-split-lines>Skills</h2>
+  <div class="skills__rows">
+    <div class="skrow"><h3>AR</h3><p>Vuforia Engine, AR Foundation, ARCore, ARKit, image tracking, plane detection, raycasting</p></div>
+    <div class="skrow"><h3>VR and MR</h3><p>Meta Quest 3, XR rig setup, controller and hand tracking, passthrough, grab and ray interactions</p></div>
+    <div class="skrow"><h3>Simulators</h3><p>Hardware-software integration, API integration, Input System, Wheel Colliders, Windows EXE and Android APK builds</p></div>
+    <div class="skrow"><h3>Unity</h3><p>C#, OOP, physics and collisions, animation, scene management, prefabs, event handling, performance tuning</p></div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact" data-shape="portal" data-x="0" data-y="0.1" data-s="1.1" data-mx="0" data-my="0.2" data-ms="0.7" aria-labelledby="contact-title">
+  <p class="eyebrow"><span class="pulse" aria-hidden="true"></span>Open to on-site XR developer roles</p>
+  <h2 id="contact-title" class="contact__title"><span data-split>Let’s build</span><span data-split>something</span><span data-split>immersive</span></h2>
+  <div class="contact__lines">
+    <div class="cline"><a href="mailto:itzarun9361@gmail.com">itzarun9361@gmail.com</a><button class="copy" type="button" data-copy="itzarun9361@gmail.com">Copy</button></div>
+    <div class="cline"><a href="tel:+919361109446">+91 93611 09446</a><button class="copy" type="button" data-copy="+919361109446">Copy</button></div>
+    <div class="cline" id="linkedin-line" hidden><a id="linkedin" href="#" target="_blank" rel="noopener">LinkedIn</a></div>
+  </div>
+  <a class="btn btn--solid btn--big magnet" href="mailto:itzarun9361@gmail.com?subject=XR%20Developer%20role">Email Arun about a role</a>
+  <footer class="foot">
+    <span>© 2026 Arun Pandi · XR Developer</span>
+    <details><summary>Image credits</summary><p>Photographs from <a href="https://unsplash.com/license" target="_blank" rel="noopener">Unsplash</a>, used under the Unsplash License. Project visuals are concept illustrations. The 3D scan is drawn live in WebGL.</p></details>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+</section>
+</main>
+
+<dialog class="lightbox" id="lightbox" aria-label="Image viewer">
+  <figure><img alt="" id="lb-img"><figcaption><span id="lb-title"></span><span id="lb-cap"></span><span id="lb-count"></span></figcaption></figure>
+  <button class="lb-btn lb-prev" type="button" aria-label="Previous image">←</button>
+  <button class="lb-btn lb-next" type="button" aria-label="Next image">→</button>
+  <button class="lb-btn lb-close" type="button" aria-label="Close viewer">✕</button>
+</dialog>
+<div class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
